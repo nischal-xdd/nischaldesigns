@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nischal Designs</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; background: #000; color: #f0f0f0; }
+    a { text-decoration: none; color: inherit; }
+    /* header */
+    header { background: rgba(31, 41, 55, 0.8); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 50; padding: 0.5rem 0.75rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin-left: 1rem; transition: color 0.3s; font-size: 0.95rem; }
+    nav a:hover { color: #3b82f6; }
+
+    section { padding: 6rem 2rem; text-align: center; }
+    .hero h2 { font-size: 3rem; color: #3b82f6; margin-bottom: 1rem; }
+    .hero p { max-width: 600px; margin: 0 auto; color: #d1d5db; }
+    .btn { padding: 0.75rem 1.5rem; border-radius: 0.5rem; margin: 0.5rem; display: inline-block; transition: background 0.3s; }
+    .btn-primary { background: #3b82f6; color: #fff; }
+    .btn-primary:hover { background: #25d1eb; }
+    .btn-outline { border: 1px solid #3b82f6; color: #3b82f6; }
+    .btn-outline:hover { background: #1e3a8a; color: #fff; }
+
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+    .project { position: relative; overflow: hidden; border-radius: 1rem; background: #1f2937; transition: transform 0.3s, box-shadow 0.3s; }
+    .project:hover { transform: scale(1.05); box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+    .project img { width: 100%; display: block; border-radius: 1rem; }
+    .project .overlay { position: absolute; inset: 0; background: rgba(59,130,246,0.3); opacity: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; transition: opacity 0.3s; border-radius: 1rem; }
+    .project:hover .overlay { opacity: 1; }
+
+    footer { background: rgba(31, 41, 55, 0.9); padding: 1.5rem; color: #9ca3af; text-align: center; }
+    form { max-width: 600px; margin: 0 auto; text-align: left; }
+    form input, form textarea { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border-radius: 0.5rem; border: 1px solid #374151; background: #1f2937; color: #f0f0f0; }
+    form button { display: block; margin: 0 auto; }
+
+    .background-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.3; z-index: -10; }
+  </style>
+</head>
+<body>
+  
+</style>
+<img src="img/bgg_n.jpg" alt="Background" class="background-img">
+<header>
+  <img src="img/logo.png" alt="Logo" style="height: 56px;">
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#featured">Featured</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Visuals That Spark Engagement</h2>
+<p style="text-shadow: 0 9px 12px rgba(0,0,0,0.8);"><strong>I help brands and creators engage their audience through standout visuals and smart strategy.</strong></p>
+  <a href="#work" class="btn btn-primary">My Work</a>
+  <a href="#contact" class="btn btn-outline">Hire Me</a>
+</section>
+
+</section>
+<section id="featured">
+ <h3 style="font-size: 2.25rem;"><strong>Featured Work</strong></h3>
+  </section>
+  <div class="projects">
+    <div class="project">
+      <img src="img/comeback.jpg" alt="Project 1">
+      <div class="overlay"></div>
+      <h4>[YT] Journey of Their Comeback</h4>
+      <p>𝗧𝗵𝗲 𝗨𝗻𝘀𝘁𝗼𝗽𝗽𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗲𝗯𝗮𝗰𝗸 𝗼𝗳 𝗖𝗿𝗶𝗰𝗸𝗲𝘁'𝘀 𝗡𝗲𝘄 𝗚𝘂𝗮𝗿𝗱.</p>
+    </div>
+    <div class="project">
+      <img src="img/Anil1.jpg" alt="Project 2">
+      <div class="overlay"></div>
+      <h4>[YT] Binod Sanga Derai Paxiko Vetghat 😍</h4>
+      <p>Channel: Anil Sunar</p>
+    </div>
+    <div class="project">
+      <img src="img/paatalo-kammar.jpg" alt="Project 3">
+      <div class="overlay"></div>
+      <h4>[YT] Paatalo Kammar official music - Rich Samir</h4>
+      <p>Channel: Rich Samir</p>
+    </div>
+    <div class="project">
+      <img src="img/horadai.jpg" alt="Project 4">
+      <div class="overlay"></div>
+      <h4>[YT] BILLU - MAMA</h4>
+      <p>Channel: Cr7 HORAA</p>
+    </div>
+    <div class="project">
+      <img src="img/Gulshan- YouTube Thumbnail.jpg" alt="Project 5">
+      <div class="overlay"></div>
+      <h4>Gulshan Jha Comeback</h4>
+      <p>Downfall to Comeback.</p>
+    </div>
+    <div class="project">
+      <img src="https://placehold.co/600x400?text=Project+6" alt="Project 6">
+      <div class="overlay"></div>
+      <h4>Project 6</h4>
+      <p>Uploading Soon.</p>
+    </div>
+  </div>
+</section>
+
+<section class="video-testimonials-section">
+    
+    <h2 class="section-title">Video Testimonials</h2>
+    
+    <div class="testimonials-container">
+        
+        <div class="testimonial-item">
+            <iframe 
+                width="100%" 
+                height="300" 
+                src="img/richsamir.mp4" 
+                title="Client Testimonial 1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            <p class="client-label">— Rapper Rich Samir</p>
+        </div>
+        
+        <div class="testimonial-item">
+            <iframe 
+                width="100%" 
+                height="300" 
+                src="https://www.youtube.com/embed/VIDEO_ID_2" 
+                title="Client Testimonial 2" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            <p class="client-label">— Client Name B</p>
+        </div>
+
+        </div>
+</section>
+
+</div>
+<section id="about">
+  <h3>About Me</h3>
+  <p>Hi, I’m Nischal! I’m 16 years old and have been designing YouTube thumbnails for 2 years. I focus on creating eye-catching, engaging thumbnails that help videos stand out and get noticed.</p>
+</section>
+
+<section id="contact">
+  <h3>Let’s Work Together</h3>
+  <p>Ready to start your next project? Send me a message and let's bring your vision to life.</p>
+  <form>
+       <form action="https://api.web3forms.com/submit" method="POST" id="form">
+     <input type="hidden" name="access_key" value="4be1338d-21a6-4e50-9ee8-ce2f4e37f2bb">
+    <label>Your Name</label>
+    <input type="text" placeholder="Your Name" required>
+    <label>Your Email</label>
+    <input type="email" placeholder="you@example.com" required>
+    <label>Message</label>
+    <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Nischal. All rights reserved.
+</footer>
+</body>
+</html>
