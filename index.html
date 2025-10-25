@@ -142,20 +142,26 @@
   <h3>About Me</h3>
   <p>Hi, I’m Nischal! I’m 16 years old and have been designing YouTube thumbnails for 2 years. I focus on creating eye-catching, engaging thumbnails that help videos stand out and get noticed.</p>
 </section>
-
+</section>
 <section id="contact">
   <h3>Let’s Work Together</h3>
   <p>Ready to start your next project? Send me a message and let's bring your vision to life.</p>
-  <form>
-       <form action="https://api.web3forms.com/submit" method="POST" id="form">
-     <input type="hidden" name="access_key" value="4be1338d-21a6-4e50-9ee8-ce2f4e37f2bb">
+ 
+  <form action="https://api.web3forms.com/submit" method="POST" id="form">
+   
+    <input type="hidden" name="access_key" value="4be1338d-21a6-4e50-9ee8-ce2f4e37f2bb">
+   
     <label>Your Name</label>
-    <input type="text" placeholder="Your Name" required>
+    <input type="text" name="name" placeholder="Your Name" required>
+   
     <label>Your Email</label>
-    <input type="email" placeholder="you@example.com" required>
+    <input type="email" name="email" placeholder="you@example.com" required>
+   
     <label>Message</label>
-    <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+    <textarea rows="5" name="message" placeholder="Tell me about your project..." required></textarea>
+   
     <button type="submit" class="btn btn-primary">Send Message</button>
+   
   </form>
 </section>
 
@@ -165,6 +171,7 @@
 </body>
 
 </html>
+
 
 
 
